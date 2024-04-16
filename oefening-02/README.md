@@ -15,7 +15,7 @@
 ### endpoints opzoeken
 
 Zoek de volgende endpoints op:
-- Vraag de data van een specifieke pokemon op (bv. charmander): *Noteer de endpoint hier*
-- Vraag de data van een specifieke pokemon-type op (bv. fire): *Noteer de endpoint hier*
-- Vraag 1 lijst van de eerste 151 pokemon op: *Noteer de endpoint hier*
-- Vraag 1 lijst van de volgende 151 pokemon op: *Noteer de endpoint hier*
+- Vraag de data van een specifieke pokemon op (bv. charmander): GET https://pokeapi.co/api/v2/pokemon/charmander
+- Vraag de data van een specifieke pokemon-type op (bv. fire): GET https://pokeapi.co/api/v2/type/fire
+- Vraag 1 lijst van de eerste 151 pokemon op: GET https://pokeapi.co/api/v2/pokemon/?limit=151
+- Vraag 1 lijst van de volgende 151 pokemon op: GET https://pokeapi.co/api/v2/pokemon/?limit=151&offset=151
