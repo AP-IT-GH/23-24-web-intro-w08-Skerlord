@@ -17,6 +17,15 @@ Tijdens dit labo leer je
 ---
 
 1. Maak een nieuw verzoek naar de API.
+GET  https://login.auth0.com/api/v2/users
 2. Gebruik de endpoint /users.
+https://login.auth0.com/api/v2/users
 3. Voeg een Authorization header toe met een Bearer Token.
+Postman -> authorization = Bearer token. 
+Vul de unieke string die je hebt aangemaakt op auth0 in, hiermee kan je de API aanspreken.
 4. Voer het verzoek uit en bekijk de lijst met gebruikers.
+https://dev-1idn2qlfow837phn.us.auth0.com/api/v2/users
+
+Lijst is leeg.
+
+
