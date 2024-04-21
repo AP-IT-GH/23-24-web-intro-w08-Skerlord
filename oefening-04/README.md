@@ -9,6 +9,8 @@
 ### endpoints opzoeken
 
  - Ga op zoek naar een geschikte API die in lijn ligt van jouw topic voor jouw langlopende taak.
+ https://phishstats.info/
  - Zoek minstens 3 endpoints op van de API.
-
- *Schrijf hier de 3 endpoints op.*
+ https://phishstats.info:2096/api/phishing?_where=(countrycode,eq,US)
+ https://phishstats.info:2096/api/phishing?_sort=-date
+ https://phishstats.info:2096/api/phishing?_where=(ip,eq,148.228.16.3)
